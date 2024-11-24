@@ -3,6 +3,7 @@ import multer from "multer";
 import cors from "cors";
 import {atualizarNovoPost, listarPosts, postarNovoPost, uploadImagem} from "../controller/postsController.js";
 
+// caso use SO Windows
 // const storage = multer.diskStorage({
 //     destination: function (req, file, cb) {
 //         cb(null, 'uploads/');
